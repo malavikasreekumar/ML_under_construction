@@ -26,3 +26,19 @@ X=onehotencoder_X.fit_transform(X).toarray()
 # Encoding the Dependent Variable
 labelencoder_y = LabelEncoder()
 y = labelencoder_y.fit_transform(y)
+
+
+# Splitting test set and training set
+from sklearn.cross_validation import train_test_split
+X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=.25,train_size=.75,random_state=0)#the train size and test size tells us the part of dataset we take for each
+
+#feature scaling
+from sklearn.preprocessing import StandardScaler
+sc_X=StandardScaler()
+X_train=sc_X.fit_transform(X_train)
+X_test=sc_X.fit_transform(X_test)
+
+#It is not necessary to fit and transform dummy variables,it depends on our data
+
+#We do not need to apply feature scaling to dependent variable 'y' as in this case it is a classification problem,but
+# for regression problems we need to feature scale 
