@@ -44,4 +44,7 @@ plt.xlabel('Positional level')
 plt.ylabel('Salary')
 plt.show()
 
+#Predicting  a new result with Linear Regression
+X_grid=X_grid.reshape((len(X_grid),1))
+lin_reg.predict(6.5)
  
