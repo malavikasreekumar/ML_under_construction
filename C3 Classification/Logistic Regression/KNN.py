@@ -1,11 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed May 29 06:10:55 2019
 
-@author: Malavika  Sreekumar
-"""
-
-# Classification template
 
 # Importing the libraries
 import numpy as np
