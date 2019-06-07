@@ -1,4 +1,13 @@
+<<<<<<< HEAD
 
+=======
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Jun  5 15:17:08 2019
+
+@author: Malavika  Sreekumar
+"""
+>>>>>>> f657fb1785a186a3e673cdf54c97dc3c71723d90
 
 # Importing the libraries
 import numpy as np

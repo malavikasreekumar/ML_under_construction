@@ -1,4 +1,15 @@
+<<<<<<< HEAD
 
+=======
+# -*- coding: utf-8 -*-
+"""
+Created on Wed May 29 06:10:55 2019
+
+@author: Malavika  Sreekumar
+"""
+
+# Classification template
+>>>>>>> f657fb1785a186a3e673cdf54c97dc3c71723d90
 
 # Importing the libraries
 import numpy as np
