@@ -1,4 +1,4 @@
-# Support Vector Machine (SVM)
+# Support Vector Machine(SVM)
 
 # Importing the libraries
 import numpy as np
