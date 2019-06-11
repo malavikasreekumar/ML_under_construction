@@ -4,6 +4,7 @@ Created on Tue Jun 11 09:38:31 2019
 
 @author: Malavika  Sreekumar
 """
+#Apriori Algorithm
 
 # Importing the libraries
 import numpy as np
