@@ -5,7 +5,7 @@ Created on Tue Jun 11 18:06:22 2019
 @author: Malavika  Sreekumar
 """
 
-# Upper Confidence Bound
+# Upper Confidence Bound Algorithm in Reinforcement learning
 
 # Importing the libraries
 import numpy as np
